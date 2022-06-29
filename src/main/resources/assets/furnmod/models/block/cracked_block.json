@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "furnmod:block/cracked_block"
+  }
+}
