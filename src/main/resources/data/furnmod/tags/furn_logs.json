@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "furnmod:furn_wood",
+    "furnmod:furn_log",
+    "furnmod:stripped_furn_wood",
+    "furnmod:stripped_furn_log"
+
+  ]
+}

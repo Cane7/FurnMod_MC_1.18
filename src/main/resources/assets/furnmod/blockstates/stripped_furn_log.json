@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "furnmod:block/stripped_furn_log_horizontal",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "furnmod:block/stripped_furn_log"
+    },
+    "axis=z": {
+      "model": "furnmod:block/stripped_furn_log_horizontal",
+      "x": 90
+    }
+  }
+}

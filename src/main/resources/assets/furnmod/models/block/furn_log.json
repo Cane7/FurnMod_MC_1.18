@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "furnmod:block/furn_log_top",
+    "side": "furnmod:block/furn_log"
+  }
+}

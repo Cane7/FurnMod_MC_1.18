@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "furnmod:block/furn_wood",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "furnmod:block/furn_wood"
+    },
+    "axis=z": {
+      "model": "furnmod:block/furn_wood",
+      "x": 90
+    }
+  }
+}
