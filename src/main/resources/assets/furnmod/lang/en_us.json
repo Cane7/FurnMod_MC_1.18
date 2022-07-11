@@ -1,9 +1,11 @@
 {
-  "itemGroup.furnmodtab": "Furn Mod Tab",
+  "itemGroup.furnmodtab": "Furn Mod",
 
   "block.furnmod.furn_wood": "Furn Wood",
   "block.furnmod.furn_log": "Furn Log",
   "block.furnmod.furn_planks": "Furn Planks",
   "block.furnmod.stripped_furn_wood": "Stripped Furn Wood",
-  "block.furnmod.stripped_furn_log": "Stripped Furn Log"
+  "block.furnmod.stripped_furn_log": "Stripped Furn Log",
+  "block.furnmod.furn_leaves": "Furn Leaves",
+  "block.furnmod.furn_sapling": "Furn Sapling"
 }

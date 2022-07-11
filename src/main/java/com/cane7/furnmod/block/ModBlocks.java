@@ -4,6 +4,7 @@ import com.cane7.furnmod.FurnMod;
 import com.cane7.furnmod.block.custom.ModFlammableRotatedPillarBlock;
 import com.cane7.furnmod.item.ModCreativeModeTab;
 import com.cane7.furnmod.item.ModItems;
+import com.cane7.furnmod.world.feature.tree.FurnTreeGrower;
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.Direction;
 import net.minecraft.world.item.*;
@@ -60,6 +61,26 @@ public class ModBlocks {
                 }
             }, ModCreativeModeTab.FURNMOD_TAB);
 
+    public static final RegistryObject<Block> FURN_LEAVES = registerBlock("furn_leaves",
+            () -> new LeavesBlock(BlockBehaviour.Properties.copy(Blocks.OAK_LEAVES)) {
+                @Override
+                public boolean isFlammable(BlockState state, BlockGetter world, BlockPos pos, Direction face) {
+                    return true;
+                }
+
+                @Override
+                public int getFlammability(BlockState state, BlockGetter world, BlockPos pos, Direction face) {
+                    return 60;
+                }
+
+                @Override
+                public int getFireSpreadSpeed(BlockState state, BlockGetter world, BlockPos pos, Direction face) {
+                    return 30;
+                }
+            }, ModCreativeModeTab.FURNMOD_TAB);
+
+    public static final RegistryObject<Block> FURN_SAPLING = registerBlock("furn_sapling",
+            () -> new SaplingBlock(new FurnTreeGrower(), BlockBehaviour.Properties.copy(Blocks.OAK_SAPLING)), ModCreativeModeTab.FURNMOD_TAB);
 
 
 
